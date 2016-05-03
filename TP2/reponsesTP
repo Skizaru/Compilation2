@@ -1,4 +1,5 @@
 1.
 	a. Sous forme de balises car les attributs sont utilisés, sémantiquement parlant, pour des données non affichables mais seulement indicatrices.
 
-
+2.
+	a. On crée un noeud "contacts" qui contiendra tout les différents contacts de la personne. Pour connaitre le type de contact, on utilise des attributs.

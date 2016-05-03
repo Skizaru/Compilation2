@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!ELEMENT Personnes (individu+)>
+<!ELEMENT individu (nom, prenom, sexe, civilite, email, contacts)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT prenom (#PCDATA)>
+<!ELEMENT sexe EMPTY>
+<!ELEMENT civilite EMPTY>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT contacts (contact+)>
+<!ELEMENT contact (#PCDATA)>
+<!ATTLIST contact
+		type (chat|social|global) #REQUIRED
+		name (Skype|Facebook|Linkedin|gmail|Twitter)  #REQUIRED
+>
+<!ATTLIST sexe
+		type (M|F) #REQUIRED
+>
+<!ATTLIST civilite
+		type (M|Mme|Mlle) #REQUIRED
+>

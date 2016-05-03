@@ -1,25 +1,43 @@
-<?xml version="1.0" encoding="ISO- 8859-1" standalone="no"?>
-<!DOCTYPE Test SYSTEM "Test.dtd"> 
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE Personnes SYSTEM "contactDTD.dtd"> 
 <Personnes>
 	<individu>
 		<nom>Jannot</nom>
 		<prenom>Cédric</prenom>
-		<sexe>M</sexe>
-		<civilite>Monsieur</civilite>
-		<adresseMail>cedric.jannot@etu.unilim.fr</adresseMail>
+		<sexe type="M"></sexe>
+		<civilite type="M"></civilite>
+		<email>cedric.jannot@etu.unilim.fr</email>
+		<contacts>	
+			<contact type="chat" name="Skype">Skizaru</contact>
+			<contact type="social" name="Twitter">Touffix</contact>
+			<contact type="social" name="Facebook">Cédric Jannot</contact>
+			<contact type="global" name="gmail">cedric.skiza@gmail.com</contact>
+		</contacts>
 	</individu>
 	<individu>
 		<nom>Bharat</nom>
 		<prenom>Romain</prenom>
-		<sexe>M</sexe>
-		<civilite>Monsieur</civilite>
-		<adresseMail>romain.bharat@etu.unilim.fr</adresseMail>
+		<sexe type="M"></sexe>
+		<civilite type="M"></civilite>
+		<email>romain.bharat@etu.unilim.fr</email>
+		<contacts>	
+			<contact type="chat" name="Skype">Skizaru</contact>
+			<contact type="social" name="Twitter">Touffix</contact>
+			<contact type="social" name="Facebook">Cédric Jannot</contact>
+			<contact type="global" name="gmail">cedric.skiza@gmail.com</contact>
+		</contacts>
 	</individu>
 	<individu>
 		<nom>Lestage</nom>
 		<prenom>Marine</prenom>
-		<sexe>F</sexe>
-		<civilite>Mlle</civilite>
-		<adresseMail>marine.lestage@etu.unilim.fr</adresseMail>
+		<sexe type="F"></sexe>
+		<civilite type="Mlle"></civilite>
+		<email>marine.lestage@etu.unilim.fr</email>
+		<contacts>	
+			<contact type="chat" name="Skype">Skizaru</contact>
+			<contact type="social" name="Twitter">Touffix</contact>
+			<contact type="social" name="Facebook">Cédric Jannot</contact>
+			<contact type="global" name="gmail">cedric.skiza@gmail.com</contact>
+		</contacts>
 	</individu>
 </Personnes>

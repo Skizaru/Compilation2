@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO- 8859-1" standalone="no"?>
+<!DOCTYPE Test SYSTEM "Test.dtd"> 
+<Personnes>
+	<individu>
+		<nom>Jannot</nom>
+		<prenom>Cédric</prenom>
+		<sexe>M</sexe>
+		<civilite>Monsieur</civilite>
+		<adresseMail>cedric.jannot@etu.unilim.fr</adresseMail>
+	</individu>
+	<individu>
+		<nom>Bharat</nom>
+		<prenom>Romain</prenom>
+		<sexe>M</sexe>
+		<civilite>Monsieur</civilite>
+		<adresseMail>romain.bharat@etu.unilim.fr</adresseMail>
+	</individu>
+	<individu>
+		<nom>Lestage</nom>
+		<prenom>Marine</prenom>
+		<sexe>F</sexe>
+		<civilite>Mlle</civilite>
+		<adresseMail>marine.lestage@etu.unilim.fr</adresseMail>
+	</individu>
+</Personnes>
